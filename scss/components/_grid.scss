@@ -3,23 +3,20 @@
 // =============================================
   
 
-// .grid {
-//     background-color: blue;
-//     margin-left: 10%;
-//     margin-right: 7%;
+.grid {
+    background-color: lightgreen;
+    display: grid;
 
-    
-//     max-width: 800px;
-//     height: auto;
-//     display: grid;
+    max-width: 800px;
+    height: auto;
 
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 200px 200px 200px;
 
-//     grid-template-columns: 1fr 1fr;
-//     grid-template-rows: 200px;
-//     // grid-column-gap: 40px; //not responding for some reason
-//     grid-row-gap: 50px; //not responding for some reason
-//     grid-column-gap: 50px; 
-// }
+    grid-column-gap: 300px;
+    grid-row-gap: 90px;
+
+}
 
 
 
