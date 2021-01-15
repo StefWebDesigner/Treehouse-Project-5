@@ -1,0 +1,163 @@
+// ============================================= 
+//Grid Systems                      
+// =============================================
+  
+
+// .grid {
+//     background-color: blue;
+//     margin-left: 10%;
+//     margin-right: 7%;
+
+    
+//     max-width: 800px;
+//     height: auto;
+//     display: grid;
+
+
+//     grid-template-columns: 1fr 1fr;
+//     grid-template-rows: 200px;
+//     // grid-column-gap: 40px; //not responding for some reason
+//     grid-row-gap: 50px; //not responding for some reason
+//     grid-column-gap: 50px; 
+// }
+
+
+
+
+
+
+
+
+
+// My Test Example In Using Grids
+
+// .grid {
+//     max-width: 320px;
+//     // height: auto;
+//     display: grid;
+//     background-color: red;
+    
+//     grid-template-columns: 2fr 1fr;
+//     grid-template-rows: 200px minmax(200px, 1fr) minmax(200px, 1fr)  100px;
+//     grid-column-gap: 20px; 
+// grid-row-gap: 20px;  
+
+//     grid-template-areas:  
+//     "header header"
+//     "main nav"
+//     "aside aside"
+//     "footer footer";
+// }
+
+// header {
+//     display: grid;
+//     background-color: purple;
+//     grid-area: header;
+//     text-align: center;
+
+// }
+
+// nav {
+//     display: grid;
+//     background-color: beige;
+//     grid-area: nav;
+//     text-align: center;
+
+// }
+
+// aside {
+//     display: grid;
+//     background-color: orange;
+//     grid-area: aside;
+//     text-align: center;
+
+// }
+
+// footer {
+//     display: grid;
+//     background-color: pink;
+//     grid-area: footer;
+//     text-align: center;
+
+// }
+
+// main {
+//     display: grid;
+//     background-color: blue;
+//     grid-area: main;
+//     text-align: center;
+
+// }
+
+// @media only screen and (max-width: 768px) {
+
+//     .grid {
+//         max-width: 768px;    
+        
+//         grid-template-columns: 1fr 1fr;
+//         grid-template-rows: 200px 200px 200px;
+    
+//         grid-template-areas:  
+//         "header header"
+//         "main nav"
+//         "aside aside"
+//         "footer footer";
+//     }
+    
+
+// //===============//
+// // Main Flex Box //
+// //===============//
+
+
+// .main-container {
+//     display: flex;
+//     flex-direction: rows;
+// }
+
+// .about-me-container {
+//     display: flex;
+//     flex-direction: column;
+   
+// }
+
+
+// .announcment-countainer {
+//     display: flex;
+//     flex-direction: column;
+// }
+
+// //===============//
+// // Aside Flex Box //
+// //===============//
+
+
+// .content-container {   //A grid within a grid!!!!!!
+// display: grid;
+// grid-template-columns: 1fr 1fr;
+// grid-template-rows: 200px 200px;
+// grid-column-gap: 20px; 
+// grid-row-gap: 20px;  
+// grid-template-areas: 
+// "video video"
+// "podcast blog";
+
+// }
+
+// .video-content { //Thes class chosen classes now take effect with grid area!!!!
+// display: grid;
+// grid-area: video;
+
+// }
+
+// .podcast-content {
+//     display: grid;
+// grid-area: podcast;
+
+// }
+
+// .blog-content {
+//     display: grid;
+// grid-area: blog;
+// }
+
