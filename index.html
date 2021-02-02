@@ -3,71 +3,96 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Treehouse Project 5">
-	<title>The Stefan Talk Show</title>
+	<title>tREEHOUSE PROJECT 5</title>
 	<meta charset="utf-8">
-	<!-- <link rel="stylesheet" href="css/normalize.css"> -->
-	<link rel="stylesheet" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Roboto:ital@1&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/baguetteBox.min.css">
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 
 
 <!-- Body Sections -->
 
-<!-- <body class="grid"> -->
+	<body>
+		<!-- <body class="grid"> -->
 
-	<body class="grid">
-
-			<div class="grid photo-container">
+			<!-- <script>
+				function getInput() {
+					window.location='js/app.js';
+				}
+			</script> -->
+			<button onkeypress="getInput();"> <input type="search" placeholder="Search" name="search"> </button>
+	
+		<aside class="grid">
+			<div class="grid gallery">
 					<div class="photo">
 						<div class="side-a">
-							<img src="../photos/01.jpg" alt="picture of a farm">
+							<a href="../photos/01.jpg" data-caption="picture of a farm and straw pastures">
+								<img src="../photos/01.jpg" alt="picture of a farm">
+							</a>	
 						</div> <!-- END > SIDE A -->
-					<div class="side-b">
-						<h3>Hay Bales</h3>
-						<p> I love hay bales. Took this snap on a drive through the countryside past some straw fields.
-						</p>
-					</div> <!-- END > SIDE B -->
-				</div> <!-- END > PHOTOS -->
+						<div class="side-b">
+							<!-- It's click responsive on both side but still only shows the picture -->
+							<a href="../photos/01.jpg" data-caption="picture of a farm and straw pastures"> 
+							<h3>Hay Bales</h3>
+							<p> I love hay bales. Took this snap on a drive through the countryside past some straw fields.
+							</p>
+						</a>
+							
+						</div> <!-- END > SIDE B -->
+					</div> <!-- END > PHOTOS -->
 
 				<div class="photo">
 					<div class="side-a">
-						<img src="../photos/02.jpg" alt="picture of a the mountains in Iceland">
+						<a href="../photos/02.jpg" data-caption="picture of a the mountains in Iceland with lake">
+							<img src="../photos/02.jpg" alt="picture of a the mountains in Iceland with lake">
+						</a>
 					</div>
 					<div class="side-b">
+						<a href="../photos/02.jpg" data-caption="picture of a the mountains in Iceland with lake">
 						<h3>Lake</h3>
-						<p> The lake was so calm today. We had a great view of the snow on the mountains from here.
+						<p>  The lake was so calm today. We had a great view of the snow on the mountains from here.
 						</p>
 					</div> <!-- END > SIDE B -->
 				</div> <!-- END > PHOTOS -->
 
 				<div class="photo">
 					<div class="side-a"> 
-						<img src="../photos/03.jpg" alt="picture of New Zealnd Highlands">
+						<a href="../photos/03.jpg" data-caption="picture of the highlands, mountains, and canyons">
+							<img src="../photos/03.jpg" alt="picture of the highlands, mountains, and canyons">
+						</a>
 					</div>
 					<div class="side-b">
+						<a href="../photos/03.jpg" data-caption="picture of the highlands, mountains, and canyons">
 						<h3>Canyon</h3>
-						<p> I hiked to the top of the mountain and got this picture of the canyon and trees below.
+						<p>  I hiked to the top of the mountain and got this picture of the canyon and trees below.
 						</p>
 					</div> <!-- END > SIDE B -->
 				</div> <!-- END > PHOTOS -->
 				
 				<div class="photo">
 					<div class="side-a"> 
-						<img src="../photos/04.jpg" alt="picture of glaciers in Alascka">
+						<a href="../photos/04.jpg" data-caption="picture of glaciers and iceburg">
+							<img src="../photos/04.jpg" alt="picture of glaciers and iceburg">
+						</a>
 					</div>
 					<div class="side-b">
+						<a href="../photos/04.jpg" data-caption="picture of glaciers and iceburg">
 						<h3>Iceberg
 						</h3>
-						<p> It was amazing to see an iceberg up close, it was so cold but didn’t snow today. 
+						<p>  It was amazing to see an iceberg up close, it was so cold but didn’t snow today. 
 						</p>
 					</div> <!-- END > SIDE B -->
 				</div> <!-- END > PHOTOS -->
 
 				<div class="photo">
 					<div class="side-a"> 
-						<img src="../photos/05.jpg" alt="picture of glaciers in Alascka">
+						<a href="../photos/05.jpg" data-caption="picture of red clifs in the desert">
+							<img src="../photos/05.jpg" alt="picture of red clifs in the desert">
+						</a>
 					</div>
 					<div class="side-b">
+						<a href="../photos/05.jpg" data-caption="picture of red clifs in the desert">
 						<h3>Desert
 						</h3>
 						<p> 
@@ -78,49 +103,60 @@
 
 				<div class="photo">
 					<div class="side-a"> 
-						<img src="../photos/06.jpg" alt="picture of glaciers in Alascka">
+						<a href="../photos/06.jpg" data-caption="picture of fall and leaves changing color">
+							<img src="../photos/06.jpg" alt="picture of fall and leaves changing color">
+						</a>
 					</div>
 					<div class="side-b">
+						<a href="../photos/06.jpg" data-caption="picture of fall and leaves changing color">
 						<h3>Fall
 						</h3>
-						<p> 
+						<p>
 							Fall is coming, I love when the leaves on the trees start to change color.
-						</p>
+					</p>
 					</div> <!-- END > SIDE B -->
 				</div> <!-- END > PHOTOS -->
 
 				<div class="photo">
 					<div class="side-a"> 
-						<img src="../photos/07.jpg" alt="picture of glaciers in Alascka">
+						<a href="../photos/07.jpg" data-caption="picture of a green planations">
+							<img src="../photos/07.jpg" alt="picture of a green planations">
+						</a>
 					</div>
 					<div class="side-b">
-						<h3>Plantation
-
+						<a href="../photos/07.jpg" data-caption="picture of a green planations">
+							<h3>Plantation
 						</h3>
 						<p> 
 							I drove past this plantation yesterday, everything is so green!
-						</p>
+					</p>
 					</div> <!-- END > SIDE B -->
 				</div> <!-- END > PHOTOS -->
 
 				<div class="photo">
 					<div class="side-a"> 
-						<img src="../photos/08.jpg" alt="picture of glaciers in Alascka">
+						<a href="../photos/08.jpg" data-caption="picture of a hot beach in sunny weather">
+							<img src="../photos/08.jpg" alt="picture of a hot beach in sunny weather">
+						</a>
 					</div>
 					<div class="side-b">
+						<a href="../photos/08.jpg" data-caption="picture of a hot beach in sunny weather">
 						<h3>Dunes
 						</h3>
 						<p> 
 							My summer vacation to the Oregon Coast. I love the sandy dunes!
-						</p>
+					</p>
 					</div> <!-- END > SIDE B -->
 				</div> <!-- END > PHOTOS -->
 
 				<div class="photo">
 					<div class="side-a"> 
-						<img src="../photos/09.jpg" alt="picture of glaciers in Alascka">
+						<a href="../photos/09.jpg" data-caption="picture of a quiet stroll in a countryside lane">
+							<img src="../photos/09.jpg" alt="picture of a quiet stroll in a countryside lane">
+						</a>
 					</div>
 					<div class="side-b">
+						<a href="../photos/09.jpg" data-caption="picture of a quiet stroll in a countryside lane">
 						<h3>Countryside
 						</h3>
 						<p> 
@@ -131,12 +167,15 @@
 
 				<div class="photo">
 					<div class="side-a"> 
-						<img src="../photos/10.jpg" alt="picture of glaciers in Alascka">
+						<a href="../photos/10.jpg" data-caption="picture of a sunset coast with orange skies">
+							<img src="../photos/10.jpg" alt="picture of a sunset coast with orange skies">
+						</a>
 					</div>
 					<div class="side-b">
-						<h3>Sunset
+						<a href="../photos/10.jpg" data-caption="picture of a sunset coast with orange skies">
+							<h3>Sunset
 						</h3>
-						<p> 
+						<p>
 							Sunset at the coast! The sky turned a lovely shade of orange.
 						</p>
 					</div> <!-- END > SIDE B -->
@@ -145,12 +184,15 @@
 
 				<div class="photo">
 					<div class="side-a"> 
-						<img src="../photos/11.jpg" alt="picture of glaciers in Alascka">
+						<a href="../photos/11.jpg" data-caption="a picture of a tour in a cave">
+							<img src="../photos/11.jpg" alt="a picture of a tour in a cave">
+						</a>
 					</div>
 					<div class="side-b">
+						<a href="../photos/11.jpg" data-caption="a picture of a tour in a cave">
 						<h3>Cave
 						</h3>
-						<p> 
+						<p>
 							I did a tour of a cave today and the view of the landscape below was breathtaking.
 						</p>
 					</div> <!-- END > SIDE B -->
@@ -158,26 +200,31 @@
 
 				<div class="photo">
 					<div class="side-a"> 
-						<img src="../photos/12.jpg" alt="picture of glaciers in Alascka">
+						<a href="../photos/12.jpg" data-caption="a picture of a snowy mountain">
+							<img src="../photos/12.jpg" alt="a picture of a snowy mountain">
+						</a>
 					</div>
 					<div class="side-b">
+						<a href="../photos/12.jpg" data-caption="a picture of a snowy mountain">
 						<h3>Bluebells
-
 						</h3>
-						<p> 
-							I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.						</p>
+						<p>
+							I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.
+						</p>
 					</div> <!-- END > SIDE B -->
 				</div> <!-- END > PHOTOS -->
-
-		
-
 			</div> <!-- End > photo-container -->
+		</aside>
 
-</body>
+		<!-- Java Scripts -->
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/baguetteBox.min.js" async>
+			window.addEventListener('load', function() {
+  			baguetteBox.run('.gallery');
+			});
+		</script>
+		<script src="js/jquery.searchFilter.js"></script>
+		<script src="js/app.js"></script>
 
+	</body>
 </html>
-
-
-
-
-

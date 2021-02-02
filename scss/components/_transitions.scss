@@ -4,7 +4,7 @@
 
 
 
-.photo-container {
+.gallery {
     background-color: transparent;
     width: 250px;
     height: 250px;
@@ -22,21 +22,21 @@
     transform-style: preserve-3d;
     padding: 25px; //the padding allows the side-b to full extend
                     //when hovered over
+                    
 }
 
 .photo:hover {
     transform: rotateY(180deg);
+    transition-duration: ease-in 2s, ease-out 2s;
     cursor: pointer;
+    width: 250px;
+    height: 250px;
 }
 
 
 .side-a,
 .side-b {
     backface-visibility: hidden;
-    border: 5px solid lightblue;
-    border-radius: 5px;
-    border-top-right-radius: 60px;
-    border-bottom-left-radius: 60px;
 }
 
 .side-a {
@@ -49,8 +49,8 @@
 
 .side-b {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 150px; //Make the card on the back smaller
+    height: 250px;
     backface-visibility: hidden;
     background-color: blue;
     color: grey;
