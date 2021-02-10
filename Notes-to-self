@@ -35,13 +35,15 @@ Grid layout
 - Put it into a grid
 - Find a way to avoid side-b from pushing the row
 - the first time fo the grid always STICKS OUT!!!!!!!!
+- The grid is now responsive (No media queriy needed)
+- Fixed offset problems
+DRY
+- Used included border with mixin element
+
 
 ====================
 /   things to do  /
 ===================
-
-Grid Things (It work!!!!!!! It's offset...but it works!!!!!!!!!!!)
-- use grid instead of media querries (after)
 
 SearchFilter
 - Find a way to not use the constant and exceed in this part
@@ -49,26 +51,6 @@ SearchFilter
 Seach box 
 - Try to get the bigger and centered
 
-Add this:
-- animsition
-
-
-
-
-
 ===========================
 /   List of Total Things  /
 ===========================
-
-
-
-Others
-- make photos responsive with grid layout code
-
-Condesing/DRY
-- Make border radius in to a variable/mixin
-
-
-
-Extra
-- - Make caption below glow some color

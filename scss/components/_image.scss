@@ -2,16 +2,8 @@
 //Image                      
 // =============================================
   
-img {
-    //Expereimenting to see if this will help
-    // width: 250px; 
-    // height: 250px;
-
-       width: 200px; 
-    height: 200px;
-    border: 5px solid lightblue;
-    border-radius: 5px;
-    border-top-right-radius: 60px;
-    border-bottom-left-radius: 60px;
-    box-shadow: 12px 12px 25px #555;    
+img { //Use Mixin or veriables to make this DRY
+    width: 250px; 
+    height: 250px;
+    @include primary-border;   //Refer to mixin border section if it doesn't work
 }

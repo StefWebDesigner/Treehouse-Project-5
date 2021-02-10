@@ -1,8 +1,6 @@
 // ============================================= 
-//                   Button - Styles                  
+//                   Transitions                  
 // =============================================
-
-
 
 .gallery {
     background-color: transparent;
@@ -10,7 +8,6 @@
     height: 250px;
     position: relative;
     margin-left: 70%;
-
 }
 
 .photo {
@@ -20,9 +17,7 @@
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-    padding: 25px; //the padding allows the side-b to full extend
-                    //when hovered over
-                    
+    padding: 25px; //the padding allows the side-b to full extend when hovered over
 }
 
 .photo:hover {
@@ -32,7 +27,6 @@
     width: 250px;
     height: 250px;
 }
-
 
 .side-a,
 .side-b {
@@ -56,17 +50,10 @@
     color: grey;
     text-align: center;
     transform: rotateY(180deg);
-        border: 5px solid lightblue;
-        border-radius: 5px;
-        border-top-right-radius: 60px;
-        border-bottom-left-radius: 60px;
-        box-shadow: 12px 12px 25px #555;;
-
+    @include primary-border;
 }
 
 .side-b h3,
 .side-b p {
-// text-shadow: 0 0 60px white;
-text-shadow: 5px 5px 5px #555;
-
+    text-shadow: 5px 5px 5px #555;
 }

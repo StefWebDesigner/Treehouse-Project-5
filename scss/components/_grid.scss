@@ -4,40 +4,13 @@
   
 
 .grid {
-    // margin-top: 20px;
-    // margin: 0 auto;
-    
-// justify-content: center;
-// align-items: center; //To vertically center 
-                      //the items on the page
-
     display: grid;
-width: 100%;
-    grid-column-gap: 180px;
-    grid-row-gap: 170px;
-
-// height: 100vh;
-  display: grid;
-
-
-//50 px avoids the major gap in the first one
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); //367 viewport it shows 2 pictures!!!!
-  // grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); //367 viewport it shows 2 pictures!!!!
-// grid-template-rows: auto;
-
-justify-content: center;
-  align-items: center; //To vertically center 
-                        //the items on the page
-
- 
-  // grid-auto-flow: column; //This make it flow in the column orientation
-  // grid-auto-columns:
-
-
-  //  This put three pics in each row going down & NOT RESPONSIVE!!!!!
-  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); //367 viewport it shows 2 pictures!!!!
-  grid-auto-flow: flex-start; //This make it flow in the column orientation
-
+    width: 100%;
+    margin: 0 auto;
+    grid-column-gap: 100px;
+    grid-row-gap: 220px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 
@@ -50,135 +23,4 @@ justify-content: center;
 
 
 
-// My Test Example In Using Grids
-
-// .grid {
-//     max-width: 320px;
-//     // height: auto;
-//     display: grid;
-//     background-color: red;
-    
-//     grid-template-columns: 2fr 1fr;
-//     grid-template-rows: 200px minmax(200px, 1fr) minmax(200px, 1fr)  100px;
-//     grid-column-gap: 20px; 
-// grid-row-gap: 20px;  
-
-//     grid-template-areas:  
-//     "header header"
-//     "main nav"
-//     "aside aside"
-//     "footer footer";
-// }
-
-// header {
-//     display: grid;
-//     background-color: purple;
-//     grid-area: header;
-//     text-align: center;
-
-// }
-
-// nav {
-//     display: grid;
-//     background-color: beige;
-//     grid-area: nav;
-//     text-align: center;
-
-// }
-
-// aside {
-//     display: grid;
-//     background-color: orange;
-//     grid-area: aside;
-//     text-align: center;
-
-// }
-
-// footer {
-//     display: grid;
-//     background-color: pink;
-//     grid-area: footer;
-//     text-align: center;
-
-// }
-
-// main {
-//     display: grid;
-//     background-color: blue;
-//     grid-area: main;
-//     text-align: center;
-
-// }
-
-// @media only screen and (max-width: 768px) {
-
-//     .grid {
-//         max-width: 768px;    
-        
-//         grid-template-columns: 1fr 1fr;
-//         grid-template-rows: 200px 200px 200px;
-    
-//         grid-template-areas:  
-//         "header header"
-//         "main nav"
-//         "aside aside"
-//         "footer footer";
-//     }
-    
-
-// //===============//
-// // Main Flex Box //
-// //===============//
-
-
-// .main-container {
-//     display: flex;
-//     flex-direction: rows;
-// }
-
-// .about-me-container {
-//     display: flex;
-//     flex-direction: column;
-   
-// }
-
-
-// .announcment-countainer {
-//     display: flex;
-//     flex-direction: column;
-// }
-
-// //===============//
-// // Aside Flex Box //
-// //===============//
-
-
-// .content-container {   //A grid within a grid!!!!!!
-// display: grid;
-// grid-template-columns: 1fr 1fr;
-// grid-template-rows: 200px 200px;
-// grid-column-gap: 20px; 
-// grid-row-gap: 20px;  
-// grid-template-areas: 
-// "video video"
-// "podcast blog";
-
-// }
-
-// .video-content { //Thes class chosen classes now take effect with grid area!!!!
-// display: grid;
-// grid-area: video;
-
-// }
-
-// .podcast-content {
-//     display: grid;
-// grid-area: podcast;
-
-// }
-
-// .blog-content {
-//     display: grid;
-// grid-area: blog;
-// }
 
